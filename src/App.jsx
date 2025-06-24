@@ -1,22 +1,12 @@
-import { useRef } from "react"
+import Case1ref from "./Topics/case1ref"
 
 
 function App() {
 
-  const ref=useRef();
-
-  function getfocous(){
-    ref.current.focus(); //it is like we are getting id by javascript way
-  }
 
   return (
     <div>
-      Signup
-      <input  ref={ref}type="text" />
-      <input type="text" />
-      <button onClick={getfocous}>Submit</button>
-   
-
+      <Case1ref/>
     </div>
   )
 }
