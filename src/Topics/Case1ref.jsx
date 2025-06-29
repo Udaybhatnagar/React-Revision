@@ -16,7 +16,7 @@ function Case1ref() {
       <input type="text" />
       <button onClick={getfocous}>Submit</button>
    
-idfjasjfsidjflkfndsjfa
+
     </div>
   )
 }
