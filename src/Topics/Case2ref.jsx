@@ -18,7 +18,7 @@ export const Case2ref = () => {
 
         clearInterval(timmer.current)
     }
-
+dafdfdjfkdnkf,mndfk
   return (
     <div>
         {count}
